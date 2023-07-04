@@ -1,0 +1,149 @@
+body {
+  background-color: rgba(224, 220, 220, 0.432);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+#menus {
+  width: 100%;
+
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0.5px solid rgba(224, 220, 220, 0.432);
+}
+#menusin {
+  width: 1000px;
+  height: 49px;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  z-index: 99;
+}
+#sitename {
+  height: 49px;
+  width: 201px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  border: none;
+}
+#sitename img {
+  height: 49px;
+  width: 201px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.spacemenu {
+  height: 49px;
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+#mainmenu {
+  height: 49px;
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#mainmenu img {
+  height: 49px;
+  width: 50px;
+  padding: 12px;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  float: right;
+}
+#mainmenu img:hover {
+  background-color: rgba(224, 220, 220, 0.432);
+  transition: 1000ms;
+  border-radius: 25px;
+}
+
+#menusin a {
+  text-decoration: none;
+  color: black;
+}
+#menusin a:visited {
+  text-decoration: none;
+  color: black;
+}
+#main {
+  height: 400px;
+  width: 700px;
+  margin: auto;
+  background-color: white;
+  padding: 0;
+  box-sizing: border-box;
+}
+textarea {
+  height: 300px;
+  width: 700px;
+  margin: 0;
+  padding: 10px;
+  resize: none;
+  box-sizing: border-box;
+  border: none;
+}
+textarea:focus {
+  outline: none;
+  opacity: 0.9;
+}
+select {
+  color: teal;
+  border: none;
+  height: 50px;
+  width: 700px;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+button {
+  float: right;
+  background-color: #1653a3;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+button:hover {
+  opacity: 0.8;
+  border: 1px solid #1653a3;
+}
+button:focus {
+  opacity: 0.8;
+  border: 1px solid rgb(38, 41, 40);
+}
+#gelen {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: #1653a3;
+}
+a:visited {
+  text-decoration: none;
+  color: #1653a3;
+}
+#gelen img {
+  height: 50px;
+  width: 50px;
+  padding: 5px 25px 5px 25px;
+}

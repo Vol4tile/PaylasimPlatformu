@@ -1,0 +1,539 @@
+body {
+  background-color: rgba(224, 220, 220, 0.432);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Staatliches", cursive;
+}
+#menus {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0.5px solid rgba(224, 220, 220, 0.432);
+  z-index: 99;
+}
+#menusin {
+  width: 50%;
+  height: 49px;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  z-index: 99;
+  position: relative;
+}
+#triangle {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  display: none;
+}
+
+#sitename {
+  height: 49px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 49px;
+  font-size: larger;
+  border: none;
+}
+#sitename img {
+  height: 49px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#mainmenu {
+  height: 49px;
+  width: 350px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  position: absolute;
+  right: 0%;
+}
+#mainmenu img {
+  height: 49px;
+  width: 15%;
+  padding: 12px;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  float: right;
+  border-radius: 20px;
+}
+#mainmenu img:hover {
+  background-color: rgba(224, 220, 220, 0.432);
+  transition: 1000ms;
+}
+
+#menusin a {
+  text-decoration: none;
+  color: black;
+}
+#menusin a:visited {
+  text-decoration: none;
+  color: black;
+}
+#main {
+  height: auto;
+  width: 700px;
+  margin: auto;
+
+  padding: 0px;
+
+  background-color: rgba(224, 220, 220, 0.432);
+  border: 0.5px solid rgb(236, 236, 236);
+}
+#content {
+  width: 700px;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  height: 1400px;
+  box-sizing: border-box;
+}
+#top {
+  margin: 0px;
+  border-bottom: 1px solid black;
+  padding: 0px;
+  width: 700px;
+  height: 50px;
+  background-color: white;
+  box-sizing: border-box;
+  z-index: 99;
+}
+#top img {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  box-sizing: border-box;
+}
+#avatar {
+  margin: 0;
+  padding: 0px;
+  width: 700px;
+  height: 50px;
+  box-sizing: border-box;
+}
+#avatar img {
+  margin: 0;
+  padding: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+
+  box-sizing: border-box;
+}
+#contentimage {
+  display: block;
+  height: 185px;
+  padding: 0px;
+  width: 700px;
+  margin: auto;
+  background-color: white;
+  color: black;
+  margin-top: 00px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#me {
+  width: 500px;
+  height: 49px;
+  line-height: 49px;
+
+  font-size: larger;
+  margin-top: 1px;
+  padding: 0;
+  margin-left: 10%;
+  font-family: "Anton", sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.Paylasim img {
+  margin: 0;
+  padding: 0;
+  width: 698px;
+  height: 600px;
+
+  border: none;
+}
+.Paylasim {
+  width: 700px;
+  height: auto;
+  margin-top: 50px;
+  background-color: white;
+  padding: 0px;
+
+  box-sizing: border-box;
+  margin: auto;
+  border: 1px solid rgb(184, 184, 184);
+  margin-top: 50px;
+}
+
+#paylasanavatar {
+  margin: 0;
+  padding: 10px;
+  width: 700px;
+  line-height: 100px;
+  height: 100px;
+  font-family: "Staatliches", cursive;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #1653a3;
+}
+#paylasanavatar img {
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+
+  height: 100px;
+  border-radius: 50px;
+
+  box-sizing: border-box;
+}
+#paylasanadi {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+#takip {
+  margin-top: 25px;
+  float: right;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+}
+#resimyazi {
+  width: 698px;
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  height: 75px;
+  background-color: rgb(224, 224, 224);
+  overflow: hidden;
+  word-wrap: break-word;
+}
+#contentimage .subject {
+  width: 700px;
+  height: 125px;
+  padding: 10px;
+  margin: 0px;
+  box-sizing: border-box;
+  border: none;
+
+  border-radius: 5px;
+  z-index: 1;
+  background-color: white;
+  opacity: 0.7;
+}
+#contentimage .subject:hover {
+  opacity: 1;
+}
+#contentimage .subject:focus {
+  outline: 0;
+
+  color: black;
+  opacity: 0.9;
+  font-family: "Times New Roman", Times, serif;
+}
+#gonderbuton {
+  background-color: rgba(0, 0, 0, 0.781);
+  color: white;
+  height: 33px;
+  width: 200px;
+  border-radius: 10px;
+  float: right;
+  border: 1px solid #1653a3;
+}
+#gonderbuton:hover {
+  opacity: 0.8;
+  transition: 400ms;
+}
+textarea {
+  resize: none;
+  flex-grow: 2;
+}
+#contentword form {
+  display: flex;
+  flex-direction: row;
+
+  padding: 2px;
+}
+#contentword form input[type="submit"] {
+  color: #1653a3;
+  outline: none;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+#contentword form input[type="submit"]:focus {
+  color: #1653a3;
+  outline: none;
+  background-color: white;
+  border: none;
+}
+#contentword form input[type="submit"]:visited {
+  color: blue;
+  outline: none;
+  background-color: white;
+  border: none;
+}
+#contentword form input[type="submit"]:hover {
+  opacity: 0.8;
+  border: none;
+
+  color: blue;
+}
+#dosya {
+  height: 37px;
+  width: 100px;
+  padding: 0;
+  background-color: white;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 37px;
+  font-family: "Times New Roman", Times, serif;
+}
+#dosya img {
+  height: 37px;
+  width: 50px;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#yorumlarigor {
+  width: 700px;
+  margin: auto;
+
+  text-align: center;
+}
+.Paylasim a {
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+
+  color: black;
+  margin: auto;
+}
+.Paylasim a:visited {
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+  margin: auto;
+  color: black;
+}
+
+.subject {
+  width: 700px;
+  height: 100px;
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+
+  border-radius: 5px;
+  z-index: 1;
+  background-color: white;
+  opacity: 0.7;
+  border-right: none;
+}
+.subject:hover {
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  border-right: none;
+
+  z-index: 1;
+  background-color: white;
+  opacity: 0.7;
+}
+.subject:focus {
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  border-right: none;
+
+  z-index: 1;
+  background-color: white;
+  opacity: 1;
+  outline: none;
+}
+
+.begen {
+  height: 50px;
+  width: 700px;
+}
+
+.begen img {
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+#ara {
+  width: 185px;
+  border-radius: 1px;
+  height: 49px;
+  position: relative;
+  left: 25%;
+}
+#ara img {
+  width: 18px;
+  height: 18px;
+  left: 2px;
+  position: absolute;
+
+  top: 14px;
+}
+#ara input {
+  text-indent: 20px;
+  margin-top: 10px;
+
+  width: 180px;
+  border-radius: 7px;
+  height: 25px;
+  background-color: rgba(224, 220, 220, 0.432);
+
+  border: none;
+}
+#ara input:hover {
+  opacity: 0.8;
+  border-color: gray;
+}
+#ara input:focus {
+  outline: none;
+}
+.liste:hover {
+  background-color: rgba(224, 220, 220, 0.432);
+}
+#sonuc {
+  background-color: white;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 50px;
+  left: -100px;
+  display: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@media (min-width: 1300px) and (max-width: 1500px) {
+  #ara {
+    left: 15%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  #ara {
+    left: 10%;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  #ara {
+    left: 4%;
+  }
+}
+@media (min-width: 800px) and (max-width: 1100px) {
+  #ara {
+    display: none;
+  }
+}
+@media (min-width: 500px) and (max-width: 800px) {
+  #ara {
+    display: none;
+  }
+  #menusin {
+    width: 70%;
+  }
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  #ara {
+    display: none;
+  }
+  #menusin {
+    width: 90%;
+  }
+}
+
+#sorular {
+  z-index: 99;
+  position: absolute;
+  top: 20%;
+  width: 60%;
+  background-color: white;
+  left: 20%;
+  height: 40vh;
+}
+
+#soru1 {
+  height: 5vh;
+  line-height: 5vh;
+  text-align: center;
+
+  color: black;
+}
+#soru2 {
+  height: 5vh;
+  line-height: 5vh;
+  text-align: center;
+
+  color: black;
+}
+#soru3 {
+  height: 35vh;
+
+  text-align: center;
+
+  color: gold;
+}
+#soru3 form {
+  padding-top: 3vh;
+  height: 15vh;
+}
+.single-checkbox {
+  width: 1vw;
+}
+#soru4 {
+  position: relative;
+  top: 5vh;
+
+  width: 25vw;
+  height: 5vh;
+  color: white;
+  background-color: #1653a3;
+  border: none;
+}
+#soru4:hover {
+  opacity: 0.8;
+}

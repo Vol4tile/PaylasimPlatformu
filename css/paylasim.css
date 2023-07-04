@@ -1,0 +1,171 @@
+body {
+  background-color: rgba(224, 220, 220, 0.432);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  background-color: rgba(224, 220, 220, 0.432);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#menus {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0.5px solid rgba(224, 220, 220, 0.432);
+  z-index: 99;
+}
+#menusin {
+  width: 50%;
+  height: 49px;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  z-index: 99;
+}
+#sitename {
+  height: 49px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  border: none;
+}
+#sitename img {
+  height: 49px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.spacemenu {
+  height: 49px;
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+#mainmenu {
+  height: 49px;
+  width: 350px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#mainmenu img {
+  height: 49px;
+  width: 15%;
+  padding: 12px;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  float: right;
+  border-radius: 20px;
+}
+#mainmenu img:hover {
+  background-color: rgba(224, 220, 220, 0.432);
+  transition: 1000ms;
+  border-radius: 25px;
+}
+
+#menusin a {
+  text-decoration: none;
+  color: black;
+}
+#menusin a:visited {
+  text-decoration: none;
+  color: black;
+}
+#soltaraf {
+  position: fixed;
+  background-color: white;
+  width: 28vw;
+  height: 10vh;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 3vw;
+}
+#absolute {
+  position: relative;
+}
+
+#span {
+  position: absolute;
+  left: 5vw;
+  padding: 0;
+
+  height: 10vh;
+  width: 20vw;
+  background-color: white;
+  color: black;
+
+  box-sizing: border-box;
+  line-height: 10vh;
+  font-size: 3vh;
+  font-family: "Staatliches", cursive;
+}
+#avatar {
+  position: absolute;
+  left: 0;
+
+  width: 5vw;
+  padding-top: 1vh;
+  height: 10vh;
+  margin-top: 0vh;
+
+  box-sizing: border-box;
+}
+#avatar img {
+  height: 8vh;
+  width: 8vh;
+  border-radius: 4vh;
+}
+#paylasim {
+  width: 600px;
+  border: 1px solid rgb(224, 224, 224);
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 0;
+  text-align: center;
+
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+#yazi {
+  padding: 0;
+  margin: 0;
+  width: 600px;
+  height: 50px;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: "Times New Roman", Times, serif;
+}
+a {
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+
+  color: blue;
+  margin: auto;
+}
+a:visited {
+  text-decoration: none;
+  line-height: 50px;
+  text-align: center;
+  margin: auto;
+  color: blue;
+}
